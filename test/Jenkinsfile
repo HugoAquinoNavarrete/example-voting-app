@@ -1,0 +1,24 @@
+pipeline {
+	agent {
+		node {
+			label "Java"
+		}
+	}
+
+	environment {
+		// details
+	}
+
+	stages {
+		stage("Build"){
+			steps{
+				//build steps
+			}
+		}
+		stage("Publish"){
+			steps{
+				//publish steps
+			}
+		}
+	}
+}
